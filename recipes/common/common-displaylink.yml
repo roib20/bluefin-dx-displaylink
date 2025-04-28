@@ -3,8 +3,3 @@ modules:
   - type: bling
     install:
         - negativo17 # install negativo17 repos and set priority to 90, uninstall RPMFusion repos if installed
-
-  - type: akmods
-    base: main
-    install:
-      - evdi # kernel module required for use of displaylink
